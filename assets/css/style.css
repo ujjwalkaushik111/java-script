@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+
+@media (max-width:992px) {
+
+    .sm-screen {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        background-color: rgb(201, 102, 143);
+        left: -100%;
+        z-index: -1;
+        transition: all 300ms linear;
+    }
+
+    .show {
+        left: 0;
+    }
+}
+
+.z_index {
+    z-index: 100;
+}
